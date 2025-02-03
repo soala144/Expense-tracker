@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+div {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+select, input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select, input {
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.category-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #444;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #eaeaea;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
